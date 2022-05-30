@@ -27,6 +27,7 @@ library
   exposed-modules:
       Interact
       Transition
+      Wordle
   other-modules:
       Paths_wordle
   hs-source-dirs:
