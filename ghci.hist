@@ -1,4 +1,22 @@
 :q
+mapAccumL' :: (String -> Char -> (String, Char)) -> String -> [Char] -> (String, [Char]); mapAccumL' = undefined
+:t mapAccumL
+:t mapAccumL @(String -> Char -> (String, Char))
+:t mapAccumL @String @Char
+:t mapAccumL @String
+:t mapAccumL @String @ 
+:set -XTypeApplications
+:t mapAccumL
+makePattern "moody" "gloom"
+makePattern "block" "gloom"
+makePattern "arose" "gloom"
+:r
+makePattern "arose" "gloom"
+makePatter "arose" "gloom"
+:r
+:r
+:load src/Wordle.hs
+:q
 :r
 makePattern "hoge" "huga"
 :r
